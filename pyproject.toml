@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "video-splitter"
+version = "0.1.0"
+description = "Project for split and add new audio to video"
+authors = ["Dima <rubetsdima100@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = ">=1.17.0,<1.18.0"
+moviepy = "^1.0.3"
+riffusion = "0.0.5"
+altair = "4.0.0"
+diffusers = "0.26.3"  # Adjust to a compatible version
+accelerate = "0.16.0"  # Set to a version compatible with riffusion
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
