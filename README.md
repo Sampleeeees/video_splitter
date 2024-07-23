@@ -1,11 +1,6 @@
 ## Video Processing and Audio Generation Application
 ### This application allows you to split videos into parts, generate audio from text prompts, and add the generated audio to specific video parts. It is built using Streamlit for the user interface and includes functionality for video manipulation and audio generation.
 
-### Table of Contents
-Installation
-Usage
-Running with Docker
-License
 ### Installation
 ### Prerequisites
 Before setting up the project, ensure you have Poetry installed. You can install Poetry using the following command:
